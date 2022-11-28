@@ -1,0 +1,11 @@
+-*- org -*-
+
+** Install
+
+sudo dnf install texlive-scheme-basic
+sudo dnf install 'tex(dinbrief.sty)'
+sudo dnf install 'tex(german.sty)'
+
+** Environment
+
+. ~/mh7/tex-mh7/.tex
