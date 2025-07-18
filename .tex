@@ -1,8 +1,11 @@
 #! /bin/bash
 
-TEXMF=/opt/local/share/texmf-texlive/tex
-#TEXMF=/usr/share/texlive/texmf-dist/tex
-
+if test "$OSTYPE" = "darwin"; then
+   TEXMF=/opt/local/share/texmf-texlive/tex
+else
+   TEXMF=/usr/share/texlive/texmf-dist/tex
+fi
+   
 TEXINPUTS=.:~/mh7/tex-mh7/inputs
 TEXINPUTS=$TEXINPUTS:$TEXMF/latex/base
 TEXINPUTS=$TEXINPUTS:$TEXMF/latex/dinbrief
