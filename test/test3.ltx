@@ -1,0 +1,34 @@
+\documentclass{dinbrief}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\address{%
+        Clothilde Lothman\\
+        Elisabethenburg 42\\
+        05522 Meiningen
+}
+\backaddress{Clothilde Lothman, Elisabethenburg 42, 05522 Meiningen}
+\place{Meiningen}
+\date{\today}
+\subject{\textbf{Briefe schreiben mit LaTeX und dinbrief}}
+\yourmail{wor, 20.02.2023}
+\sign{clo}
+\phone{0123}{4567}
+\writer{Frau Lothman}
+\setlabelwidth{97mm}
+\setlabelheight{43mm}
+\setlabeltopmargin{20.5mm}
+\setlabelnumber{2}
+\spare{3}
+\makelabels
+\begin{document}
+\begin{letter}{%
+        Wilhelm von Ormstein\\
+        Falstein 73\\
+        43117 Kassel
+}
+\postremark{Einschreiben}
+\opening{Sehr geehrter Herr von Ormstein,}
+Briefe schreiben mit LaTeX ist nicht schwierig. \closing[Clothilde Lothman]{Mit freundlichen Grüßen} \ps{Es gib auch eine grafische Benutzeroberfläche.} \encl{Benutzerhandbuch}
+\end{letter}
+\end{document}
