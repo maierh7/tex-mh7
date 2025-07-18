@@ -7,6 +7,7 @@ exts = (
     ".pdf",
     ".log",
     ".aux",
+    ".lbl",
     )
 
 for r, d, f in os.walk ("."):
