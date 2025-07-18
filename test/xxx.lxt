@@ -1,0 +1,24 @@
+\input{hm.sty}
+\begin{document}
+
+\begin{letter}{\\
+XXXXXXX\\
+YYYYYYY\\
+Postfach 00000\\[\medskipamount]
+{\bf 00000 Irgendwo}}
+
+\nowindowtics
+\nowindowrules
+
+\yourmail{}
+\sign{}
+\subject{\bfseries Zzzzzz}
+
+\opening{Sehr geehrte Damen und Herren,}
+
+...
+
+\closing{Mit freundlichen Grüßsen,}
+
+\end{letter}
+\end{document}
