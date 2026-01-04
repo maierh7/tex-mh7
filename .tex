@@ -8,6 +8,10 @@ fi
    
 TEXINPUTS=.:~/mh7/tex-mh7/inputs
 TEXINPUTS=$TEXINPUTS:$TEXMF/latex/base
+TEXINPUTS=$TEXINPUTS:$TEXMF/latex/epstopdf-pkg
+TEXINPUTS=$TEXINPUTS:$TEXMF/latex/graphics
+TEXINPUTS=$TEXINPUTS:$TEXMF/latex/graphics-cfg
+TEXINPUTS=$TEXINPUTS:$TEXMF/latex/graphics-def
 TEXINPUTS=$TEXINPUTS:$TEXMF/generic/babel
 TEXINPUTS=$TEXINPUTS:$TEXMF/generic/babel-german
 TEXINPUTS=$TEXINPUTS:$TEXMF/generic/german
@@ -16,6 +20,6 @@ TEXINPUTS=$TEXINPUTS:$TEXMF/latex/fancyhdr
 TEXINPUTS=$TEXINPUTS:$TEXMF/latex/l3backend
 
 alias tex-path='show_path TEXINPUTS'
-
+alias tex-source='. ~/mh7/tex-mh7/.tex'
 
 export TEXINPUTS
