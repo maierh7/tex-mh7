@@ -17,6 +17,5 @@ for i in lst:
             pr = False
             break
     if pr is True:
-        print (i)
         if os.path.isdir (i) is False:
             print (i)
