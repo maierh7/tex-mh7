@@ -7,6 +7,14 @@ sudo dnf install 'tex(dinbrief.sty)'
 sudo dnf install 'tex(german.sty)'
 sudo dnf install texlive-babel-german                                                          2025-07-18 11:55:17                 1
 
+*** org-mode
+
+dnf install texlive-dvipng
+dnf install texlive-capt-of
+dnf install texlive-ulem
+dnf install texlive-wrapfig
+
+
 # sudo dnf install texlive-hyphen-german                                                         2025-07-18 11:48:33                 1
 
 ** Environment
