@@ -11,9 +11,12 @@ sudo dnf install texlive-babel-german                                           
 
 dnf install texlive-dvipng
 dnf install texlive-capt-of
+dnf install texlive-fancybox
+dnf install texlive-pxpic
+dnf install texlive-realhats
 dnf install texlive-ulem
 dnf install texlive-wrapfig
-
+dnf install texlive-standalone
 
 # sudo dnf install texlive-hyphen-german                                                         2025-07-18 11:48:33                 1
 
