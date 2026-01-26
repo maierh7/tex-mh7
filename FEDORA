@@ -2,25 +2,28 @@
 
 ** Install
 
-sudo dnf install texlive-scheme-basic
-sudo dnf install 'tex(dinbrief.sty)'
-sudo dnf install 'tex(german.sty)'
-sudo dnf install texlive-babel-german                                                          2025-07-18 11:55:17                 1
-
-*** org-mode
-
+dnf install texlive-scheme-basic
+dnf install 'tex(dinbrief.sty)'
+dnf install 'tex(german.sty)'
+dnf install texlive-babel-german
 dnf install texlive-appendix
 dnf install texlive-dvipng
 dnf install texlive-capt-of
 dnf install texlive-fancybox
+dnf install texlive-fncychap
 dnf install texlive-lipsum
 dnf install texlive-pxpic
 dnf install texlive-realhats
+dnf install texlive-titling
 dnf install texlive-ulem
 dnf install texlive-wrapfig
 dnf install texlive-standalone
 
-# sudo dnf install texlive-hyphen-german                                                         2025-07-18 11:48:33                 1
+*** org-mode
+
+dnf install texlive-dvipng
+
+# dnf install texlive-hyphen-german
 
 ** Environment
 
