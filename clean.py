@@ -4,10 +4,16 @@ import os
 import re
 
 exts = (
-    ".pdf",
-    ".log",
     ".aux",
+    ".bcf",
     ".lbl",
+    ".lof",
+    ".log",
+    ".lot",
+    ".out",
+    ".pdf",
+    ".xml",
+    ".toc",
     )
 
 for r, d, f in os.walk ("."):
