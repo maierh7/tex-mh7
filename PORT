@@ -1,0 +1,15 @@
+-*- outline -*-
+
+** port installations
+
+texlive-basic
+texlive-bibtex-extra
+texlive-bin
+texlive-common
+texlive-fonts-recommended
+texlive-lang-german
+texlive-latex
+texlive-latex-extra
+texlive-latex-recommended
+texlive-pictures
+texlive-plain-generic

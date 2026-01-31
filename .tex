@@ -1,6 +1,7 @@
 #! /bin/bash
 
-if test "$OSTYPE" = "darwin24"; then
+if test "$OSTYPE" = "darwin24" || \
+   test "$OSTYPE" = "darwin25"; then
    TEXMF=/opt/local/share/texmf-texlive/tex
 else
    TEXMF=/usr/share/texlive/texmf-dist/tex
@@ -23,6 +24,7 @@ TEXINPUTS=$TEXINPUTS:$TEXMF/generic/listofitems
 TEXINPUTS=$TEXINPUTS:$TEXMF/generic/ltxcmds
 TEXINPUTS=$TEXINPUTS:$TEXMF/generic/pdfescape
 TEXINPUTS=$TEXINPUTS:$TEXMF/generic/pdftexcmds
+TEXINPUTS=$TEXINPUTS:$TEXMF/generic/stringenc
 TEXINPUTS=$TEXINPUTS:$TEXMF/generic/uniquecounter
 TEXINPUTS=$TEXINPUTS:$TEXMF/generic/xkeyval
 TEXINPUTS=$TEXINPUTS:$TEXMF/latex/amsmath
