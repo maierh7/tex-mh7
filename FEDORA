@@ -26,6 +26,9 @@ dnf install texlive-wrapfig
 
 dnf install texlive-dvipng
 
+*** Texlive List
+https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/x86_64/os/Packages/t/
+
 # dnf install texlive-hyphen-german
 
 ** Environment
