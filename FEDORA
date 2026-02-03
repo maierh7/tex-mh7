@@ -9,6 +9,7 @@ dnf install 'tex(german.sty)'
 dnf install texlive-appendix
 dnf install texlive-babel-german
 dnf install texlive-capt-of
+dnf install texlive-doi
 dnf install texlive-dvipng
 dnf install texlive-expkv-bundle
 dnf install texlive-fancybox
