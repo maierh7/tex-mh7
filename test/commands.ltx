@@ -1,0 +1,44 @@
+\documentclass[10pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{booktabs}
+
+\author{Harald Maier (harald@maierh.de)}
+\title{Commands}
+\begin{document}
+\maketitle
+
+\section{Number One}
+
+This is some text in this \LaTeX{} document.
+This document is for demonstrating the various \LaTeX{} commands.
+
+\subsection{Emph}
+
+\textbf{abc}\underline{underline}\textit{bcd}.
+We can also emphasize words. For example \emph{This is a emphasize}.
+
+\subsection{Graphics}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{mesh1}
+    \caption{A nice plot.}
+    \label{fig:mesh1}
+\end{figure}
+ 
+As you can see in figure \ref{fig:mesh1}, the function grows near the origin.
+This example is on page \pageref{fig:mesh1}.
+
+\subsection{Lists}
+\begin{itemize}
+\item one - This is the first entry
+\item two - This is the second entry
+\item three
+\end{itemize}
+  
+
+\end{document}
